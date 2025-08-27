@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-project
+  description: Spring Boot microservice for Afriland portal
+  tags:
+    - springboot
+    - microservice
+    - desmond
+spec:
+  type: service
+  lifecycle: experimental
+  owner: desmond
+  system: afriland-portal
